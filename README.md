@@ -49,6 +49,7 @@ The Light Novel Scraper is a Python script that allows users to search for and d
 - [cloudscraper](https://pypi.org/project/cloudscraper/)
 - [selenium](https://pypi.org/project/selenium/)
 - [beautifulsoup4](https://pypi.org/project/beautifulsoup4/)
+- chromedriver Version 122.0.6261.128
 
 ## Contributing
 
