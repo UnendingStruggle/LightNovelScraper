@@ -1,51 +1,66 @@
-# LightNovelScraper
-The LightNovelScraper is a Python script that allows users to search for and download light novels from various online sources.
+# Light Novel Scraper
 
-#Table of Contents
-Features
-Installation
-Usage
-Dependencies
-Contributing
-License
+The Light Novel Scraper is a Python script that allows users to search for and download light novels from various online sources.
 
-#Features
-Search for light novels from multiple sources.
-Download chapters of selected light novels.
-Convert downloaded chapters into text files.
+## Table of Contents
 
-#Installation
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/your_username/light-novel-downloader.git
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Dependencies](#dependencies)
+- [Contributing](#contributing)
+- [License](#license)
 
-#Install dependencies:
-bash
-Copy code
-pip install -r requirements.txt
-Usage
+## Features
 
-#Run the script:
-bash
-Copy code
-python light_novel_downloader.py
-Follow the prompts to search for and download light novels.
+- Search for light novels from multiple sources.
+- Download chapters of selected light novels.
+- Convert downloaded chapters into text files.
 
-#Dependencies
-cloudscraper
-selenium
-beautifulsoup4
+## Installation
 
-#Contributing
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/UnendingStruggle/LightNovelScraper.git
+    ```
+
+2. Install dependencies:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+1. Run the script:
+
+    ```bash
+    python main.py
+    ```
+
+2. Follow the prompts to search for and download light novels.
+## Supported Sources
+- https://novelbin.hotnovelpub.net/
+- https://novelbin.app/
+
+## Dependencies
+
+- [cloudscraper](https://pypi.org/project/cloudscraper/)
+- [selenium](https://pypi.org/project/selenium/)
+- [beautifulsoup4](https://pypi.org/project/beautifulsoup4/)
+
+## Contributing
+
 Contributions are welcome! Please follow these steps to contribute:
 
-Fork the repository.
-Create a new branch (git checkout -b feature/new-feature).
-Make your changes.
-Commit your changes (git commit -am 'Add new feature').
-Push to the branch (git push origin feature/new-feature).
-Create a new Pull Request.
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/new-feature`).
+3. Make your changes.
+4. Commit your changes (`git commit -am 'Add new feature'`).
+5. Push to the branch (`git push origin feature/new-feature`).
+6. Create a new Pull Request.
 
-#License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
